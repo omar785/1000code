@@ -1,0 +1,411 @@
+@media screen and (min-width: 991px) {
+    ul.navbar-nav.mx-auto.align-items-center {
+                padding: 1% 10% 0% 0% !important;
+        }
+
+        .navigation.nav-bg {
+    background: #fff;
+    height: 12rem;
+}
+
+    }
+
+
+
+@media screen and (max-width: 991px) {
+    header.sticky-top.navigation{
+        padding: 0%;
+    }
+    
+    
+    header .container {
+        width: 100% !important;
+        padding: 0% 0% 0% 0%;
+    }
+
+
+        nav.navbar.navbar-expand-lg.navbar-light.bg-transparent{
+            width: 100%;
+        }
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .search-box input,
+        .search-box select{
+            width: 75%;
+        }
+
+
+                .search-box button{
+                        width: 51.5%;
+                        margin: 1.5%
+                }
+
+
+                                .search-box input,
+                                .search-box select{
+                                    margin: 1%
+                                }
+
+                                                                .posts-container{
+                                                                    display: ruby !important;
+                                                                }
+
+
+                                                                .post img{
+                                                                    border-radius: 0% !important;
+                                                                }
+
+                                                                .post {
+                                                                    margin: 0.4% 0.4% 0.4% 0.4% !important;
+
+                                                                    width: calc(33.33% - 0.8%) !important;
+                                                                    
+                                                                }
+
+                                                                div#mom {
+                                                                    padding: 0%;
+                                                                }
+
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 431px) {
+    .search-box input,
+        .search-box select {
+            width: 75%;
+        }
+        .search-box button {
+            width: 57.5%;
+            margin: 1.5%
+        }
+        .search-box input,
+        .search-box select {
+            margin: 1%
+        }
+
+.posts-container {
+        display: ruby !important;
+    }
+
+.post {
+        margin: 0.2% 0.2% 0.2% 0.2% !important;
+
+        width: calc(33.33% - 0.5%) !important;
+
+    }
+
+        .post img {
+            border-radius: 0% !important;
+        }
+        div#mom {
+        padding: 0%;
+    }
+
+    /* img{
+        max-width: fit-content;
+    } */
+
+.swiper-slide img {
+    width: 80%;
+}
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    img {
+            max-height: 80%;
+        }
+    
+}
+
+@media screen and (max-width: 768px) {
+.swiper-slide img {
+        width: 80%;
+    }
+}
+
+
+
+.bg-transparent{
+    width: 100%;
+}
+/* 
+
+.navigation.nav-bg {
+    background: #fff;
+    height: 12rem;
+} */
+
+
+ul.navbar-nav.mx-auto.align-items-center {
+    padding-bottom: 10%;
+}
+
+/* added new */
+
+.property-details-zoom{
+    color: #fff;
+    bottom: 10%;
+    position: relative;
+}
+
+/* added new */
+
+
+
+
+
+
+
+.post a img {
+    margin: 1%;
+}
+
+
+
+/* الأنماط العامة */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alexandria', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+span .close{ color: #fff;}
+
+  span {
+      background-color: #1f86e8;
+  }
+
+  span+span {
+      background-color: #ffba00;
+  }
+
+  span+span+span {
+      background-color: #e8402e;
+  }
+
+  span+span+span+span {
+      background-color: #03a25b;
+  }
+
+  span {
+      width: 25%;
+      height: 5px;
+      display: block;
+      float: left;
+  }
+
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.search-box {
+    width: 100%;
+    text-align: center;
+    padding: 15% 12% 3% 12%;
+    /* background-image: url('https://via.placeholder.com/1500x500'); */
+        background-image: url('https://images.1000aqar.com/General-Images/Search-bg.webp');
+    background-size: cover; 
+    background-position: center;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.search-box input,
+.search-box select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex: 1;
+    min-width: 120px;
+    max-width: 200px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffba00;
+    color: white;
+    cursor: pointer;
+}
+
+.posts-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.post {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.post img:hover {
+    transform: scale(1.1);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1020;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    max-height: 80%;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.call-button {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+/* تخصيص مظهر الزر */
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    bottom: 100px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+
+
+.close:hover,
+.close:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    /* background-color: #1f86e8; */
+    color: white;
+    text-align: center;
+    /* padding: 20px; */
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Swiper styles */
+.swiper-container {
+    width: 100%;
+    height: 80%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden-description {
+    display: none;
+}
